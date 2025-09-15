@@ -1,4 +1,4 @@
-Coin Collect Game
+𝐂𝐨𝐢𝐧 𝐂𝐨𝐥𝐥𝐞𝐜𝐭-𝐆𝐚𝐦𝐞
 
 A fun and challenging browser game where the player collects coins in different modes (Easy, Medium, Hard).
 
