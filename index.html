@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Coin Collect</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Coin Collect</h1>
+
+  <!-- START SCREEN -->
+  <div id="startDiv" class="center-panel">
+    <button id="startBtn" class="big">Start Game</button>
+  </div>
+
+  <!-- MODE SELECT -->
+  <div id="levelSelect" class="center-panel" style="display:none;">
+    <div class="level-row">
+      <button data-mode="Easy" class="level-btn">Easy</button>
+      <button data-mode="Medium" class="level-btn">Medium</button>
+      <button data-mode="Hard" class="level-btn">Hard</button>
+    </div>
+    <div class="level-back">
+      <button id="backToStart" class="level-btn">Back</button>
+    </div>
+  </div>
+
+  <!-- GAME UI -->
+  <div id="gameUI" style="display:none;">
+    <div id="topBar">
+      <div id="info">
+        Time: <span id="timer">0</span> s | Points: <span id="points">0</span> | Level: <span id="levelLabel">1</span>
+      </div>
+      <div id="controls">
+        <button id="startAgainBtn" class="small">Start/Resume</button>
+        <button id="stopBtn" class="small">Stop/Pause</button>
+        <button id="backBtn" class="small">Back</button>
+      </div>
+    </div>
+
+    <div id="puzzleContainer" class="puzzle" aria-label="game area"></div>
+    <div id="message" class="message" aria-live="polite"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
