@@ -2,6 +2,8 @@
 
 A fun and challenging browser game where the player collects coins in different modes (Easy, Medium, Hard).
 
+
+
 🎮 How to Play
 
 Open the game in your browser by launching index.html.
@@ -18,7 +20,9 @@ Points tracker
 
 Level indicator
 
-Control the game with:
+
+
+Control the game with :
 
 Start/Resume → Starts or resumes the game.
 
@@ -28,7 +32,9 @@ Back → Returns one step back (to the previous screen).
 
 ⌨️ Controls
 
-Keyboard / PC:
+
+
+Keyboard / PC :
 
 Spacebar → Start/Stop
 
@@ -38,7 +44,9 @@ Arrow Keys → Move player (if movement is enabled)
 
 Mobile / Touchscreen: Tap on the buttons (Start, Stop, Back).
 
-⚡ Features
+
+
+⚡ Features :
 
 Different modes: Easy, Medium, Hard.
 
@@ -50,7 +58,9 @@ Responsive design: works on PC and Mobile.
 
 Back button available on every stage for smooth navigation.
 
-📂 File Structure
+
+
+📂 File Structure :
 coin-collect-game/
 │── index.html      # Main game file
 │── style.css       # Game design
@@ -58,11 +68,15 @@ coin-collect-game/
 │── README.md       # Instructions
 │── images/         # (optional) assets folder
 
-🚀 How to Run
+
+
+🚀 How to Run :
 
 Download or clone the project.
 
 Open index.html in your browser.
+
+
 
 Note: 
 Mainly,This Is Mobile Version Game.
